@@ -1,7 +1,7 @@
 
-import Cam from "../assets/cam.png"
-import Add from "../assets/add.png"
-import More from "../assets/more.png"
+import Cam from "../../public/assets/cam.png"
+import Add from "../../public/assets/add.png"
+import More from "../../public/assets/more.png"
 import Messages from "./Messages"
 import Input from "./Input"
 import { useContext } from "react"

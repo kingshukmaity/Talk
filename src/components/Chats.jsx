@@ -21,9 +21,6 @@ const Chats = () => {
     };
     currentUser.uid && getChats();
   }, [currentUser.uid]);
-  // console.log(Object.entries(chats));
-  // console.log(chats);
-  // console.log(Object?.entries(chats[0])); TODO:
 
   const handleSelect = (e) => {
     dispatch({ type: "CHANGE_USER", payload: e });

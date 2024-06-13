@@ -1,11 +1,10 @@
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { updateProfile, createUserWithEmailAndPassword } from "firebase/auth";
-import Add from "../assets/addAvatar.png";
+import Add from "../../public/assets/addAvatar.png";
 import { storage, auth, db } from "../firebase";
 import { useState } from "react";
 import { doc, setDoc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 import Loader from "../components/Loader";
 
 const Register = () => {

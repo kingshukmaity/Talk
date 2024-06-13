@@ -1,5 +1,5 @@
-import Img from "../assets/img.png";
-import Attach from "../assets/attach.png";
+import Img from "../../public/assets/img.png";
+import Attach from "../../public/assets/attach.png";
 import { useContext, useState } from "react";
 import { ChatContext } from "../context/ChatContext";
 import { AuthContext } from "../context/AuthContext";
